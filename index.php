@@ -20,3 +20,20 @@ $string = array();
   print_r('Exercice2:');
   echo count($string);
  ?>
+
+ <?php
+
+ $w = array();
+   foreach ($dico as $recupW) {
+     if(strpos($recupW,"w") !== false){
+       array_push($w, $recupW);
+
+     }
+
+   }
+   print_r('Exercice3:');
+   echo count($w);
+
+
+
+  ?>
